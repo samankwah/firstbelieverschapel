@@ -64,7 +64,7 @@ const Hero = () => {
             className="text-4xl md:text-5xl lg:text-7xl font-extrabold text-yellow-600 mb-4 tracking-tight"
             variants={itemVariants}
           >
-            Ahavah
+            Ahavah Church
           </motion.h1>
 
           <motion.p

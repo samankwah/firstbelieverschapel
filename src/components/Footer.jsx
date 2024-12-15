@@ -116,7 +116,7 @@ const Footer = () => {
 
       {/* Bottom Section */}
       <div className="border-t border-gray-700 mt-8 pt-6 text-center text-gray-500 text-sm">
-        <p>© {new Date().getFullYear()} Renew Church. All Rights Reserved.</p>
+        <p>© {new Date().getFullYear()} Ahavah Church. All Rights Reserved.</p>
         <div className="mt-2 space-x-4">
           <a href="/privacy" className="hover:text-blue-400 transition-colors">
             Privacy Policy
