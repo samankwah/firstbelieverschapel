@@ -59,7 +59,7 @@ function Navbar() {
               onClick={() => setShowModal(true)}
               className="flex items-center space-x-2 bg-blue-600 text-white px-4 py-2 rounded-md hover:bg-blue-700 transition duration-300"
             >
-              <DollarSign size={20} />
+              {/* <DollarSign size={20} /> */}
               <span>Donate</span>
             </button>
           </div>
