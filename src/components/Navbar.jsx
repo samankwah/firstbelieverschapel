@@ -66,7 +66,7 @@ function Navbar() {
 
           {/* Mobile Menu Button */}
           <button
-            className="md:hidden text-3xl text-blue-700 focus:outline-none"
+            className="md:hidden text-4xl text-blue-700 focus:outline-none"
             onClick={toggleMenu}
           >
             ☰

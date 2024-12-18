@@ -81,7 +81,7 @@ const Footer = () => {
               rel="noopener noreferrer"
               className="hover:text-blue-500 transition-transform transform hover:scale-110"
             >
-              <BsFacebook size={32} />
+              <BsFacebook size={20} />
             </a>
             <a
               href="https://twitter.com"
@@ -89,7 +89,7 @@ const Footer = () => {
               rel="noopener noreferrer"
               className="hover:text-blue-400 transition-transform transform hover:scale-110"
             >
-              <BsTwitterX size={32} />
+              <BsTwitterX size={20} />
             </a>
             <a
               href="https://instagram.com"
@@ -97,7 +97,7 @@ const Footer = () => {
               rel="noopener noreferrer"
               className="hover:text-pink-500 transition-transform transform hover:scale-110"
             >
-              <BsInstagram size={32} />
+              <BsInstagram size={20} />
             </a>
             <a
               href="https://youtube.com"
@@ -105,7 +105,7 @@ const Footer = () => {
               rel="noopener noreferrer"
               className="hover:text-red-500 transition-transform transform hover:scale-110"
             >
-              <BsYoutube size={32} />
+              <BsYoutube size={20} />
             </a>
           </div>
           <p className="text-gray-400 text-sm">

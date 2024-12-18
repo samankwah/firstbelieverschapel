@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { Mail, MapPin, Phone, Send, MessageCircle, User } from "lucide-react";
 import { GoogleMap, LoadScript, Marker } from "@react-google-maps/api";
+import backgroundImage from "../assets/undraw_community_fv55.png";
 
 const containerStyle = {
   width: "100%",
@@ -206,14 +207,24 @@ function Contact() {
       </div>
 
       {/* Prayer Request Section */}
-      <div className="bg-blue-600 text-white py-16">
-        <div className="container max-w-7xl mx-auto px-4 text-center">
-          <h2 className="text-4xl font-serif font-bold mb-6">Need Prayer?</h2>
+      <div
+        className="relative bg-cover bg-center bg-no-repeat text-white py-12 min-h-[40vh] md:min-h-[50vh] lg:min-h-[52vh]"
+        style={{
+          backgroundImage: `url(${backgroundImage})`,
+          backgroundSize: "cover",
+          backgroundPosition: "center",
+        }}
+      >
+        <div className="absolute inset-0 bg-black opacity-20"></div>
+        <div className="container relative z-10 max-w-7xl mx-auto px-4 text-center pt-28">
+          <h2 className="text-4xl text-blue-900 font-serif font-bold mb-6">
+            Need Prayer?
+          </h2>
           <p className="text-xl mb-8">
             Our prayer team is here to support you. Submit your prayer request
             and we'll lift you up.
           </p>
-          <button className="bg-white text-blue-600 px-8 py-3 rounded-full hover:bg-blue-50 transition">
+          <button className="bg-white text-blue-600 px-8 py-3 rounded-full hover:bg-blue-50 transition mb-20">
             Submit Prayer Request
           </button>
         </div>
