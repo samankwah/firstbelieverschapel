@@ -38,14 +38,16 @@ function Contact() {
   return (
     <div className="min-h-screen bg-gray-50">
       {/* Hero Section */}
-      <div className="bg-gradient-to-br from-blue-600 to-purple-700 text-white py-20 pt-20">
+      <div className="bg-gradient-to-br from-blue-600 to-purple-700 text-white py-10 pt-20">
         <div className="container max-w-7xl mx-auto px-4 text-center">
           <MessageCircle
             className="mx-auto mb-6 text-white"
             size={64}
             strokeWidth={1.5}
           />
-          <h1 className="text-5xl font-serif font-bold mb-4">Contact Us</h1>
+          <h1 className="text-3xl lg:text-5xl font-serif font-bold mb-4">
+            Contact Us
+          </h1>
           <p className="text-xl max-w-2xl mx-auto text-gray-100">
             We'd love to hear from you. Reach out with any questions, prayer
             requests, or just to say hello.
@@ -208,7 +210,7 @@ function Contact() {
 
       {/* Prayer Request Section */}
       <div
-        className="relative bg-cover bg-center bg-no-repeat text-white py-12 min-h-[40vh] md:min-h-[50vh] lg:min-h-[52vh]"
+        className="relative bg-cover bg-center bg-no-repeat text-white py-12 min-h-[40vh] md:min-h-[50vh] lg:min-h-28"
         style={{
           backgroundImage: `url(${backgroundImage})`,
           backgroundSize: "cover",
@@ -216,7 +218,7 @@ function Contact() {
         }}
       >
         <div className="absolute inset-0 bg-black opacity-20"></div>
-        <div className="container relative z-10 max-w-7xl mx-auto px-4 text-center pt-28">
+        <div className="container relative z-10 max-w-7xl mx-auto px-4 text-center pt-10">
           <h2 className="text-4xl text-blue-900 font-serif font-bold mb-6">
             Need Prayer?
           </h2>

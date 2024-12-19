@@ -78,9 +78,9 @@ function Events() {
   return (
     <div className="min-h-screen bg-gray-50">
       {/* Hero Section */}
-      <div className="bg-gradient-to-br from-blue-600 to-purple-700 text-white py-20 pt-20">
+      <div className="bg-gradient-to-br from-blue-600 to-purple-700 text-white py-10 pt-24">
         <div className="container max-w-7xl mx-auto px-4 text-center">
-          <h1 className="text-5xl font-serif font-bold mb-4">
+          <h1 className="text-3xl lg:text-5xl font-serif font-bold mb-4">
             Upcoming Events
           </h1>
           <p className="text-xl max-w-2xl mx-auto text-gray-100">

@@ -116,14 +116,16 @@ function Sermons() {
   return (
     <div className="min-h-screen bg-gray-50">
       {/* Hero Section */}
-      <div className="bg-gradient-to-br from-blue-600 to-purple-700 text-white py-20 pt-20">
+      <div className="bg-gradient-to-br from-blue-600 to-purple-700 text-white py-10 pt-20">
         <div className="container max-w-7xl mx-auto px-4 text-center">
           <BookOpen
             className="max-w-7xl mx-auto mb-6 text-white"
             size={64}
             strokeWidth={1.5}
           />
-          <h1 className="text-5xl font-serif font-bold mb-4">Our Sermons</h1>
+          <h1 className="text-3xl lg:text-5xl font-serif font-bold mb-4">
+            Our Sermons
+          </h1>
           <p className="text-xl max-w-2xl mx-auto text-gray-100">
             Explore inspiring messages that bring hope, wisdom, and spiritual
             growth.
@@ -152,26 +154,7 @@ function Sermons() {
             </button>
           ))}
         </div>
-        {/* <div className="container max-w-7xl mx-auto px-4 py-8">
-        <div className="flex justify-center gap-4 px-4 mb-8 overflow-x-auto whitespace-nowrap scrollbar-hide">
-          {categories.map((category) => (
-            <button
-              key={category}
-              onClick={() => setActiveFilter(category)}
-              className={`
-          flex items-center px-4 py-1 rounded-lg transition 
-          ${
-            activeFilter === category
-              ? "bg-blue-600 text-white"
-              : "bg-gray-200 text-gray-700 hover:bg-gray-300"
-          }
-        `}
-            >
-              <Filter className="mr-2" size={16} />
-              {category}
-            </button>
-          ))}
-        </div> */}
+
         {/* Sermon Grid */}
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           {filteredSermons.map((sermon, index) => (

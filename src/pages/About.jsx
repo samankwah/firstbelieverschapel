@@ -1,4 +1,3 @@
-import React from "react";
 import { BookOpenText, Cross, Heart, Users, HandHeart } from "lucide-react";
 import SeniorPastor from "../assets/founder-img.png.webp";
 import WorshipLead from "../assets/user.png.webp";
@@ -27,7 +26,7 @@ const ChurchAboutPage = () => {
   return (
     <div className="bg-gray-50 min-h-screen text-gray-800 ">
       {/* Hero Section */}
-      <div className="bg-gradient-to-br from-blue-600 to-purple-700 text-white py-20">
+      <div className="bg-gradient-to-br from-blue-600 to-purple-700 text-white py-10 pt-20">
         <div className="container max-w-7xl mx-auto px-4 text-center">
           <Cross
             className="mx-auto mb-6 text-white"
@@ -129,56 +128,11 @@ const ChurchAboutPage = () => {
           </div>
         </div>
       </div>
-
-      {/* Call to Action */}
-      {/* <div className="bg-blue-700 text-white py-16">
-        <div className="container max-w-7xl mx-auto px-4 text-center">
-          <h2 className="text-4xl font-serif font-bold mb-6">
-            Join Our Community
-          </h2>
-          <p className="text-xl mb-8">
-            We welcome you to worship with us, grow in faith, and be part of
-            something greater.
-          </p>
-          <a
-            href="/contact"
-            className="bg-white text-blue-700 hover:bg-blue-100 px-8 py-3 rounded-full text-lg font-semibold transition"
-          >
-            Connect With Us
-          </a>
-        </div>
-      </div> */}
-      {/* <div
-        className="relative bg-cover bg-center bg-no-repeat text-white py-16"
-        style={{ backgroundImage: `url(${Hero})` }}
-      > */}
-      {/* <div
-        className="sticky top-0 h-screen bg-cover bg-center bg-fixed text-white"
-        style={{ backgroundImage: `url(${Hero})` }}
-      >
-        <div className="absolute inset-0 bg-blue-700 opacity-70"></div>
-        <div className="container relative z-10 max-w-7xl mx-auto px-4 text-center">
-          <h2 className="text-4xl font-serif font-bold mb-6">
-            Join Our Community
-          </h2>
-          <p className="text-xl mb-8">
-            We welcome you to worship with us, grow in faith, and be part of
-            something greater.
-          </p>
-          <a
-            href="/contact"
-            className="bg-white text-blue-700 hover:bg-blue-100 px-8 py-3 rounded-full text-lg font-semibold transition"
-          >
-            Connect With Us
-          </a>
-        </div>
-      </div> */}
-
       <div
         className="top-0 min-h-[40vh] md:min-h-[40vh] bg-cover bg-center bg-fixed text-white"
         style={{ backgroundImage: `url(${Hero})` }}
       >
-        <div className="absolute inset-0 bg-black opacity-20"></div>
+        {/* <div className="absolute inset-0 bg-black opacity-20"></div> */}
         <div className="container relative z-10 max-w-7xl mx-auto px-4 flex flex-col justify-center items-center h-full text-center p-24">
           <h2 className="text-2xl md:text-4xl font-serif font-bold mb-4 md:mb-6">
             Join Our Community
