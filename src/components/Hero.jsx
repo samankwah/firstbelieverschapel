@@ -310,7 +310,7 @@ const Hero = () => {
             <img
               src={image}
               alt={`Slide ${index + 1}`}
-              className="absolute object-cover w-full h-[70vh] lg:h-[70vh]"
+              className="absolute object-cover w-full h-[70vh] lg:h-[70vh] mb-2"
             />
 
             {/* Gradient Overlay */}
@@ -370,7 +370,7 @@ const Hero = () => {
 
                 {/* Quick Info Section */}
                 <motion.div
-                  className="flex flex-col sm:flex-row justify-center items-center space-y-2 sm:space-y-0 sm:space-x-6 mt-6 text-white/80"
+                  className="flex flex-col sm:flex-row justify-center items-center space-y-2 sm:space-y-0 sm:space-x-6 mt-6 mb-4 text-white/80"
                   variants={itemVariants}
                 >
                   <div className="flex items-center font-extrabold space-x-2">
