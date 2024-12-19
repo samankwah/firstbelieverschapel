@@ -310,7 +310,7 @@ const Hero = () => {
             <img
               src={image}
               alt={`Slide ${index + 1}`}
-              className="absolute object-cover w-full h-[65vh] lg:h-[70vh]"
+              className="absolute object-cover w-full h-[70vh] lg:h-[70vh]"
             />
 
             {/* Gradient Overlay */}
