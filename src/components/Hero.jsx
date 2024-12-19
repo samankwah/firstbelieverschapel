@@ -304,7 +304,7 @@ const Hero = () => {
         {images.map((image, index) => (
           <div
             key={index}
-            className="relative min-h-[65vh] lg:min-h-[70vh] flex items-center justify-center overflow-x-visible"
+            className="relative min-h-[70vh] lg:min-h-[70vh] flex items-center justify-center overflow-x-visible"
           >
             {/* Image Background */}
             <img
