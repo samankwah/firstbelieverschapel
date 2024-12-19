@@ -1,3 +1,11 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@font-face {
+  font-family: "slick";
+  src: url("/path/to/your/fonts/slick.woff") format("woff"),
+    url("/path/to/your/fonts/slick.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}

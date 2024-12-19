@@ -27,17 +27,17 @@ const ChurchAboutPage = () => {
   return (
     <div className="bg-gray-50 min-h-screen text-gray-800 ">
       {/* Hero Section */}
-      <div className="bg-gradient-to-br from-blue-600 to-purple-700 text-white py-20 pt-20">
+      <div className="bg-gradient-to-br from-blue-600 to-purple-700 text-white py-20">
         <div className="container max-w-7xl mx-auto px-4 text-center">
           <Cross
             className="mx-auto mb-6 text-white"
             size={64}
             strokeWidth={1.5}
           />
-          <h1 className="text-5xl font-serif font-bold mb-6">
+          <h1 className="text-3xl lg:text-5xl font-serif font-semibold mb-6">
             Ahavah Community Church
           </h1>
-          <p className="text-xl max-w-3xl mx-auto leading-relaxed">
+          <p className="text-xl lg:text-2xl max-w-3xl mx-auto leading-relaxed">
             Sharing God's love, building community, and transforming lives
             through faith, hope, and compassion.
           </p>
@@ -175,7 +175,7 @@ const ChurchAboutPage = () => {
       </div> */}
 
       <div
-        className="sticky top-0 min-h-[40vh] md:min-h-[40vh] bg-cover bg-center bg-fixed text-white"
+        className="top-0 min-h-[40vh] md:min-h-[40vh] bg-cover bg-center bg-fixed text-white"
         style={{ backgroundImage: `url(${Hero})` }}
       >
         <div className="absolute inset-0 bg-black opacity-20"></div>
