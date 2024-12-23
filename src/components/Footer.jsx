@@ -7,7 +7,9 @@ const Footer = () => {
       <div className="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-8">
         {/* Left Section: About and Address */}
         <div className="flex flex-col items- md:items-start text-left md:text-left">
-          <h2 className="text-2xl font-bold mb-4 text-gray-300">Our Church</h2>
+          <h2 className="text-2xl font-bold mb-4 text-gray-300">
+            Ammonia, Ammonia Kuitar
+          </h2>
           <p className="text-gray-400 text-sm leading-relaxed">
             Bringing people together through faith, love, and community. Join us
             every Sunday for a life-changing experience.
@@ -15,7 +17,7 @@ const Footer = () => {
           <p className="mt-4 flex items-start space-x-2">
             <FaMapMarkerAlt className="text-blue-400 mt-1" />
             <span>
-              <span className="block">123 Church Street City, Country</span>
+              <span className="block">National Headquaters, Akim Oda</span>
             </span>
           </p>
 
@@ -25,7 +27,7 @@ const Footer = () => {
               href="tel:+11234567890"
               className="hover:text-blue-400 transition-colors"
             >
-              (123) 456-7890
+              (+233) 508-410-4905
             </a>
           </p>
         </div>
@@ -44,18 +46,18 @@ const Footer = () => {
             </li>
             <li>
               <a
-                href="/sermons"
+                href="/teachings"
                 className="hover:text-blue-400 transition-colors text-gray-400"
               >
-                Sermon
+                Teaching Series
               </a>
             </li>
             <li>
               <a
-                href="/events"
+                href="/services"
                 className="hover:text-blue-400 transition-colors text-gray-400"
               >
-                Upcoming Events
+                Services
               </a>
             </li>
             <li>
@@ -116,7 +118,10 @@ const Footer = () => {
 
       {/* Bottom Section */}
       <div className="border-t border-gray-700 mt-8 pt-6 text-center text-gray-500 text-sm">
-        <p>© {new Date().getFullYear()} Ahavah Church. All Rights Reserved.</p>
+        <p>
+          © {new Date().getFullYear()} First Believers Anointed Chapel
+          International. All Rights Reserved.
+        </p>
         <div className="mt-2 space-x-4">
           <a href="/privacy" className="hover:text-blue-400 transition-colors">
             Privacy Policy

@@ -33,8 +33,8 @@ const ChurchAboutPage = () => {
             size={64}
             strokeWidth={1.5}
           />
-          <h1 className="text-3xl lg:text-5xl font-serif font-semibold mb-6">
-            Ahavah Community Church
+          <h1 className="text-3xl md:text-4xl lg:text-5xl font-serif font-semibold mb-6">
+            First Believers Anointed Chapel International
           </h1>
           <p className="text-xl lg:text-2xl max-w-3xl mx-auto leading-relaxed">
             Sharing God's love, building community, and transforming lives
@@ -44,21 +44,27 @@ const ChurchAboutPage = () => {
       </div>
 
       {/* Our Story Section */}
-      <div className="container max-w-7xl mx-auto px-4 py-16 grid md:grid-cols-2 gap-12 items-center">
+      <div className="container max-w-7xl mx-auto px-6 py-16 grid md:grid-cols-2 gap-12 items-center">
         <div>
           <h2 className="text-3xl font-serif font-semibold mb-6 flex items-center">
-            <Heart className="mr-4 text-red-600" size={40} />
+            <Heart className="mr-2 text-red-600" size={40} />
             Our Story
           </h2>
           <p className="text-gray-700 leading-relaxed mb-4">
-            Founded in 2019, Ahavah Community Church began as a small gathering
-            of believers committed to serving our local community. Over the
-            decades, we've grown from a handful of members to a vibrant,
-            multicultural congregation dedicated to spreading the Gospel.
+            Founded in 2019, First Believers Anointed Chapel International,
+            aspire to be a church that is big enough to welcome and embrace you,
+            large enough to serve you and strong enough to minister to and
+            enrich your total well-being. At the same time, we strive to be
+            small enough to know you personally and intimately in all our
+            gatherings. Our focus is on being a Holy Spirit-filled church that
+            reaches out with the love of Christ to those who are lost and
+            hurting in our community, our nation and the world.
           </p>
           <p className="text-gray-700 leading-relaxed">
             Our journey has been guided by a simple yet powerful mission: to
-            love God, love people, and make disciples who transform the world.
+            reach the ends of the world with the Gospel of Jesus Christ to meet
+            the needs of mankind. It is a church where Christ is served as a
+            King and worshipped as personal Lord and Savior.
           </p>
         </div>
         <div className="bg-white shadow-lg rounded-lg p-8">
@@ -73,9 +79,9 @@ const ChurchAboutPage = () => {
 
       {/* Core Beliefs Section */}
       <div className="bg-white py-16">
-        <div className="container max-w-7xl mx-auto px-4 text-center">
-          <h2 className="text-4xl font-serif font-bold mb-12 flex justify-center items-center">
-            <HandHeart className="mr-4 text-green-600" size={40} />
+        <div className="container max-w-7xl mx-auto px-6 text-center">
+          <h2 className="text-3xl lg:text-4xl font-serif font-bold mb-12 flex justify-center items-center">
+            <HandHeart className="mr-2 text-green-600" size={40} />
             Our Core Beliefs
           </h2>
           <div className="grid md:grid-cols-3 gap-8">
@@ -108,9 +114,9 @@ const ChurchAboutPage = () => {
 
       {/* Leadership Team */}
       <div className="bg-gray-50 py-16">
-        <div className="container max-w-7xl mx-auto px-4 text-center">
-          <h2 className="text-4xl font-serif font-bold mb-12 flex justify-center items-center">
-            <Users className="mr-4 text-purple-600" size={40} />
+        <div className="container max-w-7xl mx-auto px-6 text-center">
+          <h2 className="text-3xl lg:text-4xl font-serif font-bold mb-12 flex justify-center items-center">
+            <Users className="mr-2 text-purple-600" size={40} />
             Our Leadership Team
           </h2>
           <div className="grid md:grid-cols-3 gap-8">
@@ -133,7 +139,7 @@ const ChurchAboutPage = () => {
         style={{ backgroundImage: `url(${Hero})` }}
       >
         {/* <div className="absolute inset-0 bg-black opacity-20"></div> */}
-        <div className="container relative z-10 max-w-7xl mx-auto px-4 flex flex-col justify-center items-center h-full text-center p-24">
+        <div className="container relative z-10 max-w-7xl mx-auto px-6 flex flex-col justify-center items-center h-full text-center p-24">
           <h2 className="text-2xl md:text-4xl font-serif font-bold mb-4 md:mb-6">
             Join Our Community
           </h2>

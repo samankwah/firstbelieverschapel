@@ -1,4 +1,5 @@
 import React from "react";
+import PropTypes from "prop-types";
 import { Calendar, Clock, MapPin } from "lucide-react";
 import EventOne from "../assets/hero.jpg";
 
@@ -44,7 +45,17 @@ const EventCard = ({ title, date, image, time, location, description }) => {
   );
 };
 
-function Events() {
+// Add PropTypes validation for EventCard
+EventCard.propTypes = {
+  title: PropTypes.string.isRequired,
+  date: PropTypes.string.isRequired,
+  image: PropTypes.string,
+  time: PropTypes.string,
+  location: PropTypes.string,
+  description: PropTypes.string,
+};
+
+function Services() {
   const events = [
     {
       title: "Sunday Service",
@@ -91,7 +102,7 @@ function Events() {
       </div>
 
       {/* Events Grid */}
-      <div className="container max-w-7xl mx-auto px-4 py-16">
+      <div className="container max-w-7xl mx-auto px-6 py-16">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           {events.map((event, index) => (
             <EventCard key={index} {...event} />
@@ -123,4 +134,4 @@ function Events() {
   );
 }
 
-export default Events;
+export default Services;

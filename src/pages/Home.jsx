@@ -1,7 +1,6 @@
-import React from "react";
 import About from "./About";
-import Event from "./Events";
-import Sermons from "./Sermons";
+import Services from "./Services";
+import TeachingSeries from "./TeachingSeries";
 import Contact from "./Contact";
 import Hero from "../components/Hero";
 
@@ -10,8 +9,8 @@ const Home = () => {
     <div>
       <Hero />
       <About />
-      <Event />
-      <Sermons />
+      <Services />
+      <TeachingSeries />
       <Contact />
     </div>
   );

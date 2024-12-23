@@ -9,8 +9,8 @@ const containerStyle = {
 };
 
 const center = {
-  lat: 5.6037,
-  lng: -0.187,
+  lat: 5.9296,
+  lng: -0.9725,
 };
 
 function Contact() {
@@ -55,11 +55,11 @@ function Contact() {
         </div>
       </div>
 
-      <div className="container max-w-7xl mx-auto px-4 py-16">
+      <div className="container max-w-7xl mx-auto px-5 py-16">
         <div className="grid md:grid-cols-2 gap-12">
           {/* Contact Form */}
           <div className="bg-white shadow-xl rounded-xl p-8">
-            <h2 className="text-3xl font-serif font-bold mb-6 flex items-center">
+            <h2 className="text-2xl lg:text-3xl font-serif font-bold mb-6 flex items-center">
               <Send className="mr-4 text-blue-600" size={32} />
               Send us a Message
             </h2>
@@ -134,8 +134,8 @@ function Contact() {
           </div>
 
           {/* Contact Information */}
-          <div className="bg-white shadow-xl rounded-xl p-8">
-            <h2 className="text-3xl font-serif font-bold mb-6">
+          <div className="bg-white shadow-xl rounded-xl p-5 lg:p-6">
+            <h2 className="text-2xl lg:text-3xl font-serif font-bold mb-6">
               Our Contact Information
             </h2>
 
@@ -145,7 +145,7 @@ function Contact() {
                 <div>
                   <h3 className="font-semibold text-gray-800">Address</h3>
                   <p className="text-gray-600">
-                    123 Grace Street, City, State 12345
+                    National Headquaters, Akim Oda
                   </p>
                 </div>
               </div>
@@ -154,7 +154,7 @@ function Contact() {
                 <Phone className="mr-4 text-green-500" size={32} />
                 <div>
                   <h3 className="font-semibold text-gray-800">Phone</h3>
-                  <p className="text-gray-600">(555) 123-4567</p>
+                  <p className="text-gray-600">(+233) 508-410-4905</p>
                 </div>
               </div>
 
@@ -162,7 +162,7 @@ function Contact() {
                 <Mail className="mr-4 text-blue-500" size={32} />
                 <div>
                   <h3 className="font-semibold text-gray-800">Email</h3>
-                  <p className="text-gray-600">contact@gracechurch.org</p>
+                  <p className="text-gray-600">firstbelievers@yahoo.com</p>
                 </div>
               </div>
             </div>
@@ -199,7 +199,19 @@ function Contact() {
                     center={center}
                     zoom={14}
                   >
-                    <Marker position={center} />
+                    <Marker
+                      position={center}
+                      label={{
+                        text: "We are here!",
+                        color: "black",
+                        fontSize: "18px",
+                        fontWeight: "bold",
+                      }}
+                      icon={{
+                        url: "http://maps.google.com/mapfiles/ms/icons/red-dot.png",
+                        scaledSize: { width: 40, height: 40 }, // Adjust icon size
+                      }}
+                    />
                   </GoogleMap>
                 </LoadScript>
               </div>
