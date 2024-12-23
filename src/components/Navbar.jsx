@@ -379,7 +379,7 @@ function Navbar() {
       {showModal && (
         <div className="fixed inset-0 bg-gray-50 bg-opacity-40 flex justify-center items-center z-30">
           <div
-            className="bg-cover bg-center relative w-full max-w-4xl mx-4 md:mx-auto p-44 rounded-lg shadow-lg"
+            className="bg-cover bg-center relative w-full max-w-md sm:max-w-lg md:max-w-2xl lg:max-w-4xl mx-4 md:mx-auto p-8 sm:p-16 md:p-32 lg:p-44 rounded-lg shadow-lg"
             style={{
               backgroundImage: `url(${Guitar})`,
             }}
@@ -387,56 +387,58 @@ function Navbar() {
             {/* Overlay */}
             <div className="absolute inset-0 bg-gradient-to-b from-transparent to-black opacity-80 rounded-lg"></div>
             <div className="relative z-10 text-center text-white">
-              <h2 className="text-4xl font-bold mb-4">Online Giving</h2>
-              <p className="text-lg mb-6">
+              <h2 className="text-2xl sm:text-3xl lg:text-4xl font-bold mb-4">
+                Online Giving
+              </h2>
+              <p className="text-sm sm:text-base md:text-lg mb-6">
                 Welcome to our online giving portal, where you can make payments
                 using our local (GH) and international VISA & MasterCard
                 systems, as well as Mobile Money (GH).
               </p>
 
               {/* Buttons for donation options */}
-              <div className="flex justify-center flex-wrap gap-4 mb-8">
+              <div className="flex justify-center flex-wrap gap-2 sm:gap-4 mb-8">
                 <Link
                   to="/payment"
                   onClick={handleDonationOptionClick}
-                  className="bg-green-600 hover:bg-green-700 text-white py-2 px-4 rounded-lg shadow-lg"
+                  className="bg-green-600 hover:bg-green-700 text-white py-2 px-3 sm:px-4 rounded-lg shadow-lg text-sm sm:text-base"
                 >
                   Christ Temple
                 </Link>
                 <Link
                   to="/payment"
                   onClick={handleDonationOptionClick}
-                  className="bg-green-600 hover:bg-green-700 text-white py-2 px-4 rounded-lg shadow-lg"
+                  className="bg-green-600 hover:bg-green-700 text-white py-2 px-3 sm:px-4 rounded-lg shadow-lg text-sm sm:text-base"
                 >
                   Annual Harvest
                 </Link>
                 <Link
                   to="/payment"
                   onClick={handleDonationOptionClick}
-                  className="bg-green-600 hover:bg-green-700 text-white py-2 px-4 rounded-lg shadow-lg"
+                  className="bg-green-600 hover:bg-green-700 text-white py-2 px-3 sm:px-4 rounded-lg shadow-lg text-sm sm:text-base"
                 >
                   FBACI Special Events
                 </Link>
                 <Link
                   to="/payment"
                   onClick={handleDonationOptionClick}
-                  className="bg-green-600 hover:bg-green-700 text-white py-2 px-4 rounded-lg shadow-lg"
+                  className="bg-green-600 hover:bg-green-700 text-white py-2 px-3 sm:px-4 rounded-lg shadow-lg text-sm sm:text-base"
                 >
                   PayPal
                 </Link>
               </div>
 
               {/* Payment Logos */}
-              <div className="flex justify-center flex-wrap gap-4">
+              <div className="flex justify-center flex-wrap gap-2 sm:gap-4">
                 <img
                   src={Visa}
                   alt="Visa"
-                  className="h-12 w-auto object-contain"
+                  className="h-8 sm:h-10 md:h-12 w-auto object-contain"
                 />
                 <img
                   src={Momo}
                   alt="MTN"
-                  className="h-12 w-auto object-contain"
+                  className="h-8 sm:h-10 md:h-12 w-auto object-contain"
                 />
               </div>
             </div>
@@ -444,7 +446,7 @@ function Navbar() {
             {/* Close Button */}
             <button
               onClick={() => setShowModal(false)}
-              className="absolute top-4 right-4 text-gray-100 hover:text-white text-2xl"
+              className="absolute top-4 right-4 text-gray-100 hover:text-white text-lg sm:text-xl"
             >
               &times;
             </button>
