@@ -53,13 +53,13 @@ const Hero = () => {
         {images.map((image, index) => (
           <div
             key={index}
-            className="relative min-h-[74vh] lg:min-h-[74vh] flex items-center justify-center overflow-x-visible"
+            className="relative min-h-[75vh] lg:min-h-[75vh] flex items-center justify-center overflow-x-visible"
           >
             {/* Image Background */}
             <img
               src={image}
               alt={`Slide ${index + 1}`}
-              className="absolute object-cover w-full h-[74vh] lg:h-[74vh] mb-2"
+              className="absolute object-cover w-full h-[75vh] lg:h-[75vh] mb-2"
             />
 
             {/* Gradient Overlay */}
@@ -74,7 +74,7 @@ const Hero = () => {
             >
               <div className="max-w-4xl mx-auto text-center pt-28">
                 <motion.h1
-                  className="text-4xl md:text-5xl lg:text-7xl font-extrabold text-center text-yellow-400 mb-8 tracking-normal md:pt-20 lg:pt-20"
+                  className="text-4xl md:text-5xl lg:text-7xl font-extrabold text-center text-yellow-400 mb-8 tracking-normal sm:pt-8 md:pt-20 lg:pt-20"
                   variants={itemVariants}
                 >
                   First Believers Anointed Chapel International
