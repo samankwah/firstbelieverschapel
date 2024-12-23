@@ -72,9 +72,9 @@ const Hero = () => {
               initial="hidden"
               animate="visible"
             >
-              <div className="max-w-4xl mx-auto text-center pt-36">
+              <div className="max-w-4xl mx-auto text-center pt-28">
                 <motion.h1
-                  className="text-4xl md:text-5xl lg:text-7xl font-extrabold text-center text-yellow-400 mb-12 tracking-normal md:pt-16 lg:pt-16"
+                  className="text-4xl md:text-5xl lg:text-7xl font-extrabold text-center text-yellow-400 mb-12 tracking-normal sm:pt-10 md:pt-12 lg:pt-16"
                   variants={itemVariants}
                 >
                   First Believers Anointed Chapel International
