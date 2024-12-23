@@ -53,13 +53,13 @@ const Hero = () => {
         {images.map((image, index) => (
           <div
             key={index}
-            className="relative min-h-[72vh] lg:min-h-[72vh] flex items-center justify-center overflow-x-visible"
+            className="relative min-h-[74vh] lg:min-h-[74vh] flex items-center justify-center overflow-x-visible"
           >
             {/* Image Background */}
             <img
               src={image}
               alt={`Slide ${index + 1}`}
-              className="absolute object-cover w-full h-[72vh] lg:h-[72vh] mb-2"
+              className="absolute object-cover w-full h-[74vh] lg:h-[74vh] mb-2"
             />
 
             {/* Gradient Overlay */}
