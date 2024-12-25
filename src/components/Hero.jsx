@@ -74,7 +74,7 @@ const Hero = () => {
             >
               <div className="max-w-4xl mx-auto text-center pt-28">
                 <motion.h1
-                  className="text-4xl md:text-5xl lg:text-7xl font-extrabold text-center text-yellow-400 mb-8 tracking-normal sm:pt-8 md:pt-20 lg:pt-20"
+                  className="text-4xl md:text-5xl lg:text-7xl font-extrabold text-center text-gray-50 mb-8 tracking-normal sm:pt-8 md:pt-20 lg:pt-20"
                   variants={itemVariants}
                 >
                   First Believers Anointed Chapel International
@@ -95,7 +95,7 @@ const Hero = () => {
                 >
                   <Link
                     to="/church"
-                    className="group flex items-center justify-center w-40 sm:w-auto bg-blue-500 text-white px-6 md:px-8 py-2 md:py-3 rounded-full hover:bg-blue-600 transition-all duration-300 transform hover:scale-105 hover:shadow-lg"
+                    className="group flex items-center justify-center w-40 sm:w-auto bg-[#DA0037] hover:bg-[#C70039] text-white px-6 md:px-8 py-2 md:py-3 rounded-full transition-all duration-300 transform hover:scale-105 hover:shadow-lg"
                     onMouseEnter={() => setIsHovered(true)}
                     onMouseLeave={() => setIsHovered(false)}
                   >
@@ -110,7 +110,7 @@ const Hero = () => {
 
                   <a
                     href="/live-stream"
-                    className="group flex items-center justify-center w-40 sm:w-auto bg-white text-blue-800 px-6 md:px-8 py-2 md:py-3 rounded-full hover:bg-gray-100 transition-all duration-300 transform hover:scale-105 hover:shadow-lg"
+                    className="group flex items-center justify-center w-40 sm:w-auto bg-white text-[#DA0037] px-6 md:px-8 py-2 md:py-3 rounded-full hover:bg-gray-100 transition-all duration-300 transform hover:scale-105 hover:shadow-lg"
                   >
                     <PlayCircle className="mr-2" size={18} />
                     <span className="text-sm md:text-base">Live Stream</span>

@@ -8,7 +8,7 @@ const EventCard = ({ title, date, image, time, location, description }) => {
     <div className="bg-white shadow-lg rounded-xl overflow-hidden transition-all duration-300 hover:shadow-2xl hover:-translate-y-2">
       <div className="relative">
         <img src={EventOne} alt={title} className="w-full h-56 object-cover" />
-        <div className="absolute top-4 right-4 bg-blue-600 text-white px-3 py-1 rounded-full text-sm font-semibold">
+        <div className="absolute top-4 right-4 bg-[#DA0037] text-white px-3 py-1 rounded-full text-sm font-semibold">
           Upcoming
         </div>
       </div>
@@ -18,18 +18,18 @@ const EventCard = ({ title, date, image, time, location, description }) => {
         </h3>
         <div className="space-y-2 mb-4">
           <div className="flex items-center text-gray-600">
-            <Calendar className="mr-2 text-blue-500" size={20} />
+            <Calendar className="mr-2 text-[#DA0037]" size={20} />
             <span>{date}</span>
           </div>
           {time && (
             <div className="flex items-center text-gray-600">
-              <Clock className="mr-2 text-green-500" size={20} />
+              <Clock className="mr-2 text-[#DA0037]" size={20} />
               <span>{time}</span>
             </div>
           )}
           {location && (
             <div className="flex items-center text-gray-600">
-              <MapPin className="mr-2 text-red-500" size={20} />
+              <MapPin className="mr-2 text-[#DA0037]" size={20} />
               <span>{location}</span>
             </div>
           )}
@@ -37,7 +37,7 @@ const EventCard = ({ title, date, image, time, location, description }) => {
         {description && (
           <p className="text-gray-700 mb-4 line-clamp-3">{description}</p>
         )}
-        <button className="w-full bg-blue-600 text-white py-3 rounded-lg hover:bg-blue-700 transition-colors">
+        <button className="w-full bg-[#DA0037] text-white py-3 rounded-lg hover:bg-[#C70039] transition-colors">
           Event Details
         </button>
       </div>
@@ -89,7 +89,7 @@ function Services() {
   return (
     <div className="min-h-screen bg-gray-50">
       {/* Hero Section */}
-      <div className="bg-gradient-to-br from-blue-600 to-purple-700 text-white py-10 pt-24">
+      <div className="bg-gradient-to-br from-red-200 to-[#DA0037] text-white py-10 pt-24">
         <div className="container max-w-7xl mx-auto px-4 text-center">
           <h1 className="text-3xl lg:text-5xl font-serif font-bold mb-4">
             Upcoming Events
@@ -122,9 +122,9 @@ function Services() {
             <input
               type="email"
               placeholder="Enter your email"
-              className="flex-grow px-4 py-3 border border-gray-300 rounded-l-lg focus:outline-none focus:ring-2 focus:ring-blue-500"
+              className="flex-grow px-4 py-3 border border-gray-300 rounded-l-lg focus:outline-none focus:ring-2 focus:ring-[#C70039]"
             />
-            <button className="bg-blue-600 text-white px-6 py-3 rounded-r-lg hover:bg-blue-700 transition-colors">
+            <button className="bg-[#DA0037] text-white px-6 py-3 rounded-r-lg hover:bg-[#C70039] transition-colors">
               Subscribe
             </button>
           </div>

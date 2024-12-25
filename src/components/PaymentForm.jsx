@@ -14,8 +14,8 @@ const PaymentForm = () => {
 
   return (
     <div className="max-w-md mx-auto bg-white shadow-md rounded-lg p-6 pt-24">
-      <div className="bg-blue-700 text-white text-center py-3 rounded-t-lg">
-        <h1 className="text-xl font-bold">Christ Temple</h1>
+      <div className="bg-[#DA0037] text-white text-center py-3 rounded-t-lg">
+        <h1 className="text-xl font-bold">Fund Raising</h1>
       </div>
 
       <form onSubmit={handleSubmit}>
@@ -129,7 +129,7 @@ const PaymentForm = () => {
         {/* Proceed Button */}
         <button
           type="submit"
-          className="bg-blue-700 text-white py-2 px-6 rounded-md w-full mt-6 hover:bg-blue-800"
+          className="bg-[#DA0037] text-white py-2 px-6 rounded-md w-full mt-6 hover:bg-blue-800"
         >
           Proceed
         </button>

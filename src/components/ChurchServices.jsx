@@ -57,7 +57,7 @@ const ChurchServices = () => {
 
           {/* Highlights Section */}
           <div className="bg-white p-6 rounded-lg shadow-md transform hover:scale-105 transition-transform col-span-1 md:col-span-2 lg:col-span-3">
-            <h2 className="text-2xl font-bold text-blue-700 text-center mb-4">
+            <h2 className="text-2xl font-bold text-[#DA0037] text-center mb-4">
               Highlights of Our Services
             </h2>
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 text-gray-700">
@@ -106,7 +106,7 @@ const ChurchServices = () => {
 
           {/* First Fruit Offering */}
           <div className="bg-white p-6 rounded-lg shadow-md transform hover:scale-105 transition-transform col-span-1 md:col-span-2 lg:col-span-3">
-            <h2 className="text-2xl font-bold text-blue-700 text-center mb-4">
+            <h2 className="text-2xl font-bold text-[#DA0037] text-center mb-4">
               First Fruit Offering
             </h2>
             <p className="text-gray-700 text-center">
@@ -114,7 +114,7 @@ const ChurchServices = () => {
               first Sunday of every month. (<em>Prov. 3:9-10</em>)
             </p>
             <div className="text-center mt-6">
-              <button className="bg-blue-600 text-white px-6 py-2 rounded-lg hover:bg-blue-700 transition">
+              <button className="bg-[#DA0037] text-white px-6 py-2 rounded-lg hover:bg-red-700 transition">
                 Learn More
               </button>
             </div>

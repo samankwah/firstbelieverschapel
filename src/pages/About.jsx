@@ -26,7 +26,7 @@ const ChurchAboutPage = () => {
   return (
     <div className="bg-gray-50 min-h-screen text-gray-800 ">
       {/* Hero Section */}
-      <div className="bg-gradient-to-br from-blue-600 to-purple-700 text-white py-10 pt-20">
+      <div className="bg-gradient-to-br from-red-200 to-[#DA0037] text-white py-10 pt-20">
         <div className="container max-w-7xl mx-auto px-4 text-center">
           <Cross
             className="mx-auto mb-6 text-white"
@@ -68,7 +68,7 @@ const ChurchAboutPage = () => {
           </p>
         </div>
         <div className="bg-white shadow-lg rounded-lg p-8">
-          <BookOpenText className="mx-auto text-blue-700 mb-4" size={64} />
+          <BookOpenText className="mx-auto text-[#DA0037] mb-4" size={64} />
           <blockquote className="text-center italic text-gray-600">
             "For God so loved the world that he gave his one and only Son, that
             whoever believes in him shall not perish but have eternal life." -
@@ -81,7 +81,7 @@ const ChurchAboutPage = () => {
       <div className="bg-white py-16">
         <div className="container max-w-7xl mx-auto px-6 text-center">
           <h2 className="text-3xl lg:text-4xl font-serif font-bold mb-12 flex justify-center items-center">
-            <HandHeart className="mr-2 text-green-600" size={40} />
+            <HandHeart className="mr-2 text-[#DA0037]" size={40} />
             Our Core Beliefs
           </h2>
           <div className="grid md:grid-cols-3 gap-8">
@@ -116,7 +116,7 @@ const ChurchAboutPage = () => {
       <div className="bg-gray-50 py-16">
         <div className="container max-w-7xl mx-auto px-6 text-center">
           <h2 className="text-3xl lg:text-4xl font-serif font-bold mb-12 flex justify-center items-center">
-            <Users className="mr-2 text-purple-600" size={40} />
+            <Users className="mr-2 text-[#DA0037]" size={40} />
             Our Leadership Team
           </h2>
           <div className="grid md:grid-cols-3 gap-8">
@@ -149,7 +149,7 @@ const ChurchAboutPage = () => {
           </p>
           <a
             href="/contact"
-            className="bg-white text-blue-700 hover:bg-blue-100 px-6 py-2 md:px-8 md:py-3 rounded-full text-base md:text-lg font-semibold transition"
+            className="bg-white text-[#DA0037] hover:bg-blue-100 px-6 py-2 md:px-8 md:py-3 rounded-full text-base md:text-lg font-semibold transition"
           >
             Connect With Us
           </a>
