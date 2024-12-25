@@ -210,7 +210,7 @@ function Contact() {
                       }}
                       icon={{
                         url: "http://maps.google.com/mapfiles/ms/icons/red-dot.png",
-                        scaledSize: { width: 40, height: 60 }, // Adjust icon size
+                        scaledSize: { width: 40, height: 40 }, // Adjust icon size
                       }}
                     />
                   </GoogleMap>
