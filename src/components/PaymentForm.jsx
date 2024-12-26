@@ -13,7 +13,7 @@ const PaymentForm = () => {
   };
 
   return (
-    <div className="max-w-lg mx-auto bg-white shadow-md rounded-lg p-6 pt-24">
+    <div className="max-w-lg mx-auto bg-gray-100 shadow-md rounded-lg p-6 pt-24">
       <div className="bg-[#DA0037] text-white text-center py-3 rounded-t-lg">
         <h1 className="text-xl font-bold">Fund Raising</h1>
       </div>
