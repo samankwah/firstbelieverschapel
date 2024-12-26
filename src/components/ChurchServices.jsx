@@ -120,6 +120,110 @@ const ChurchServices = () => {
             </div>
           </div>
         </div>
+        {/* Objectives Section */}
+        <div className="mt-20 bg-gradient-to-r from-white to-blue-50 p-10 rounded-lg shadow-lg">
+          <h2 className="text-3xl font-bold text-center text-[#DA0037] mb-8">
+            Objectives of Our Church
+          </h2>
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 ">
+            <div className="bg-white p-6 rounded-lg shadow-md hover:shadow-xl transition">
+              <div className="flex items-center space-x-4 mb-4">
+                <span className="text-4xl text-blue-600 ">🙏</span>
+                <h3 className="text-xl font-semibold text-gray-800 ">
+                  Worship Celebration
+                </h3>
+              </div>
+              <p className="text-gray-700 leading-relaxed">
+                To cultivate a Spirit-filled and Word-based community, offering
+                genuine worship in celebration of redemption (
+                <strong>Psalms 95:1-7</strong>, <strong>100:1-5</strong>,{" "}
+                <strong>John 4:23-24</strong>,{" "}
+                <strong>Revelation 5:9-14</strong>, <strong>Acts 1:14</strong>,{" "}
+                <strong>2:42</strong>).
+              </p>
+            </div>
+
+            <div className="bg-white p-6 rounded-lg shadow-md hover:shadow-xl transition">
+              <div className="flex items-center space-x-4 mb-4">
+                <span className="text-4xl text-blue-600">📖</span>
+                <h3 className="text-xl font-semibold text-gray-800">
+                  Teach, Preach, Pray & Impact
+                </h3>
+              </div>
+              <p className="text-gray-700 leading-relaxed">
+                To nurture God's redeemed people through sound instruction in
+                the Word and impactful demonstrations of the Spirit, fostering a
+                knowledgeable, understandable, and practical lifestyle (
+                <strong>Acts 20:28</strong>, <strong>Proverbs 27:23</strong>,{" "}
+                <strong>Romans 1:11</strong>, <strong>Proverbs 25:2</strong>).
+              </p>
+            </div>
+
+            <div className="bg-white p-6 rounded-lg shadow-md hover:shadow-xl transition">
+              <div className="flex items-center space-x-4 mb-4">
+                <span className="text-4xl text-blue-600">🤝</span>
+                <h3 className="text-xl font-semibold text-gray-800">
+                  Communion (Fellowship)
+                </h3>
+              </div>
+              <p className="text-gray-700 leading-relaxed">
+                To promote love, unity, and peace through caring, sharing,
+                giving, and communal fellowships, embracing all as one precious
+                redeemed family (<strong>Acts 2:41-47</strong>,{" "}
+                <strong>Psalms 133</strong>, <strong>Ephesians 4:1-6</strong>,{" "}
+                <strong>Hebrews 10:23-25</strong>).
+              </p>
+            </div>
+
+            <div className="bg-white p-6 rounded-lg shadow-md hover:shadow-xl transition">
+              <div className="flex items-center space-x-4 mb-4">
+                <span className="text-4xl text-blue-600">🌍</span>
+                <h3 className="text-xl font-semibold text-gray-800">
+                  Evangelism/Mission
+                </h3>
+              </div>
+              <p className="text-gray-700 leading-relaxed">
+                To mobilize God's redeemed people for effective evangelism and
+                mission endeavors, both personal and mass, with a fervent desire
+                for the lost (<strong>Matthew 28:19-20</strong>,{" "}
+                <strong>24:14</strong>; <strong>Mark 16:15-20</strong>;{" "}
+                <strong>Luke 14:23</strong>).
+              </p>
+            </div>
+
+            <div className="bg-white p-6 rounded-lg shadow-md hover:shadow-xl transition">
+              <div className="flex items-center space-x-4 mb-4">
+                <span className="text-4xl text-blue-600">🧑‍🏫</span>
+                <h3 className="text-xl font-semibold text-gray-800">
+                  Discipleship (Stewardship)
+                </h3>
+              </div>
+              <p className="text-gray-700 leading-relaxed">
+                To cultivate an orderly, disciplined people with a heart for
+                service, contributing to the maturation of the Body of Christ
+                and leadership services through Spirit-inspired teaching and
+                training (<strong>Luke 2:46</strong>, <strong>Acts 4:4</strong>,{" "}
+                <strong>6:4</strong>, <strong>2:44</strong>;{" "}
+                <strong>Romans 1:11-12</strong>).
+              </p>
+            </div>
+
+            <div className="bg-white p-6 rounded-lg shadow-md hover:shadow-xl transition">
+              <div className="flex items-center space-x-4 mb-4">
+                <span className="text-4xl text-blue-600">❤️</span>
+                <h3 className="text-xl font-semibold text-gray-800">
+                  Social Welfare
+                </h3>
+              </div>
+              <p className="text-gray-700 leading-relaxed">
+                To address the social needs of our environment/community through
+                welfare strategies encompassing hospitals, prisons, orphanages,
+                and ministries for the needy (<strong>James 2:14-17</strong>,{" "}
+                <strong>Acts 4:32-35</strong>, <strong>Luke 14:21-23</strong>).
+              </p>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   );
