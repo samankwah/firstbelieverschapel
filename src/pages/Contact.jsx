@@ -39,7 +39,7 @@ function Contact() {
   return (
     <div className="min-h-screen bg-gray-50">
       {/* Hero Section */}
-      <div className="bg-gradient-to-br from-red-200 to-[#DA0037] text-white py-10 pt-20">
+      <div className="bg-gradient-to-br from-red-200 to-red-600 text-white py-10 pt-20">
         <div className="container max-w-7xl mx-auto px-4 text-center">
           <MessageCircle
             className="mx-auto mb-6 text-white"

@@ -3,6 +3,7 @@ import SeniorPastor from "../assets/founder-img.png.webp";
 import WorshipLead from "../assets/user.png.webp";
 import Hero from "../assets/hero.jpg";
 import Youth from "../assets/founder-img.png.webp";
+import videoSource from "../assets/videos/How To Pray.mp4";
 
 const ChurchAboutPage = () => {
   const ministryLeaders = [
@@ -56,7 +57,7 @@ const ChurchAboutPage = () => {
   return (
     <div className="bg-gray-50 min-h-screen text-gray-800 ">
       {/* Hero Section */}
-      <div className="bg-gradient-to-br from-red-200 to-[#DA0037] text-white py-10 pt-20">
+      <div className="bg-gradient-to-br from-red-200 to-red-600 text-white py-10 pt-20">
         <div className="container max-w-7xl mx-auto px-4 text-center">
           <Cross
             className="mx-auto mb-6 text-white"
@@ -306,12 +307,31 @@ const ChurchAboutPage = () => {
           </div>
         </div>
       </div>
-      <div
-        className="top-0 min-h-[40vh] md:min-h-[40vh] bg-cover sticky bg-center bg-fixed text-white"
-        style={{ backgroundImage: `url(${Hero})` }}
-      >
-        {/* <div className="absolute inset-0 bg-black opacity-20"></div> */}
-        <div className="container relative z-10 max-w-7xl mx-auto px-6 flex flex-col justify-center items-center h-full text-center p-24">
+
+      <div className="relative min-h-[40vh] md:min-h-[50vh] bg-cover bg-center bg-fixed text-white">
+        {/* Video Background */}
+        <video
+          autoPlay
+          muted
+          loop
+          playsInline
+          className="w-full h-full object-cover" // Ensures video covers the container while maintaining its aspect ratio
+          style={{
+            position: "absolute",
+            top: 0,
+            left: 0,
+            zIndex: 10, // Ensures the video is in the background
+          }}
+        >
+          <source src={videoSource} type="video/mp4" />
+          Your browser does not support the video tag.
+        </video>
+
+        {/* Background overlay for readability */}
+        <div className="absolute top-0 left-0 w-full h-full bg-black opacity-40 z-10"></div>
+
+        {/* Content Section */}
+        <div className="container relative z-10 max-w-7xl mx-auto px-6 flex flex-col justify-center items-center h-full text-center p-6 pt-24 md:pt-36">
           <h2 className="text-2xl md:text-4xl font-serif font-bold mb-4 md:mb-6">
             Join Our Community
           </h2>
