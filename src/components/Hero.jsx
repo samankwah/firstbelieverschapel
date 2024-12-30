@@ -5,7 +5,7 @@ import { motion } from "framer-motion";
 import { PlayCircle, MapPin, Calendar, ChevronRight } from "lucide-react";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-import Drummer from "../assets/drummer.png";
+import Drummer from "../assets/event.png";
 import Pastor from "../assets/pastor.png";
 import Worship from "../assets/worship.png";
 
@@ -53,13 +53,13 @@ const Hero = () => {
         {images.map((image, index) => (
           <div
             key={index}
-            className="relative min-h-[75vh] lg:min-h-[75vh] flex items-center justify-center overflow-x-visible"
+            className="relative w-full min-h-[75vh] lg:min-h-[85vh] flex items-center justify-center overflow-x-visible object-cover"
           >
             {/* Image Background */}
             <img
               src={image}
               alt={`Slide ${index + 1}`}
-              className="absolute object-cover w-full h-[75vh] lg:h-[75vh] mb-2"
+              className="absolute object-fill w-full h-[75vh] lg:h-[85vh] mb-2"
             />
 
             {/* Gradient Overlay */}

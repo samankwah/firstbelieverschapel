@@ -128,7 +128,7 @@ const ChurchAboutPage = () => {
           <div className="grid md:grid-cols-3 gap-8">
             <div className="bg-gray-100 rounded-lg p-6 shadow-md transition hover:shadow-xl hover:text-[#DA0037]">
               <h3 className="text-xl font-semibold mb-4">Scripture</h3>
-              <p className="text-gray-700 text-justify">
+              <p className="text-gray-700 text-start">
                 We believe All Scripture, encompassing the Old and New
                 Testaments, is divinely inspired, infallible, and the ultimate
                 authority in matters of faith and practice (
@@ -137,7 +137,7 @@ const ChurchAboutPage = () => {
             </div>
             <div className="bg-gray-100 rounded-lg p-6 shadow-md transition hover:shadow-xl hover:text-[#DA0037]">
               <h3 className="text-xl font-semibold mb-4">God</h3>
-              <p className="text-gray-700 text-justify">
+              <p className="text-gray-700 text-start">
                 We believe in one true and eternal God, existing in three
                 distinct persons: Father, Son, and Holy Spirit (
                 <strong>1 John 5:7</strong>).
@@ -145,7 +145,7 @@ const ChurchAboutPage = () => {
             </div>
             <div className="bg-gray-100 rounded-lg p-6 shadow-md transition hover:shadow-xl hover:text-[#DA0037]">
               <h3 className="text-xl font-semibold mb-4">Jesus Christ</h3>
-              <p className="text-gray-700 text-justify">
+              <p className="text-gray-700 text-start">
                 We affirm the deity of the Lord Jesus Christ, His virgin birth,
                 sinless life, shed blood for the forgiveness of sins, bodily
                 resurrection, and ascension to the Father's right hand. We
@@ -155,7 +155,7 @@ const ChurchAboutPage = () => {
             </div>
             <div className="bg-gray-100 rounded-lg p-6 shadow-md transition hover:shadow-xl hover:text-[#DA0037]">
               <h3 className="text-xl font-semibold mb-4">Man</h3>
-              <p className="text-gray-700 text-justify">
+              <p className="text-gray-700 text-start">
                 Man is created in the image of God, designed for fellowship but
                 separated by sinful disobedience. Every individual possesses
                 dignity and is worthy of respect and Christian love (
@@ -167,7 +167,7 @@ const ChurchAboutPage = () => {
             </div>
             <div className="bg-gray-100 rounded-lg p-6 shadow-md transition hover:shadow-xl hover:text-[#DA0037]">
               <h3 className="text-xl font-semibold mb-4">Salvation</h3>
-              <p className="text-gray-700 text-justify">
+              <p className="text-gray-700 text-start">
                 Repentance, faith in the finished work of Christ, and
                 regeneration by the Holy Spirit are essential for salvation.
                 Salvation is offered by God's grace and effective for those who
@@ -210,7 +210,7 @@ const ChurchAboutPage = () => {
               <h3 className="text-xl font-semibold mb-4">
                 Second Coming of Christ and the Resurrection
               </h3>
-              <p className="text-gray-700 text-justify">
+              <p className="text-gray-700 text-start">
                 We anticipate a literal, physical return of the Lord Jesus
                 Christ, followed by the resurrection of believers to heavenly
                 dwelling. Unbelievers will face everlasting punishment (
@@ -224,7 +224,7 @@ const ChurchAboutPage = () => {
               <h3 className="text-xl font-semibold mb-4">
                 Marriage, Gender Identity, and Sexual Relations
               </h3>
-              <p className="text-gray-700 text-justify">
+              <p className="text-gray-700 text-start">
                 We uphold marriage between one man and one woman as biologically
                 designed, established by God as the foundation of the family.
                 Sexual activities are sanctioned solely within the context of
@@ -272,7 +272,7 @@ const ChurchAboutPage = () => {
             </div>
             <div className="bg-gray-100 rounded-lg p-6 shadow-md transition hover:shadow-xl hover:text-[#DA0037]">
               <h3 className="text-xl font-semibold mb-4">Burial of the Dead</h3>
-              <p className="text-gray-700 text-justify">
+              <p className="text-gray-700 text-start">
                 In adherence to the directive by the Holy Spirit to the late
                 Prophet J.O Amissah I, members shall not be buried in a
                 traditional coffin. This practice aligns with the biblical

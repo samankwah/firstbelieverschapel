@@ -240,7 +240,7 @@ function Contact() {
             and we'll lift you up.
           </p>
           <Link
-            to="/church"
+            to="/contact"
             className="bg-white text-[#DA0037] px-8 py-3 rounded-full hover:bg-red-50 transition mb-20 text-center inline-block"
           >
             Submit Prayer Request
