@@ -9,3 +9,7 @@
   font-weight: normal;
   font-style: normal;
 }
+
+.board-slider .slick-slide > div {
+  margin: 0 5px;
+}

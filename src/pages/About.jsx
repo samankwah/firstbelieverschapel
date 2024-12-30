@@ -4,6 +4,36 @@ import WorshipLead from "../assets/user.png.webp";
 import Hero from "../assets/hero.jpg";
 import Youth from "../assets/founder-img.png.webp";
 import videoSource from "../assets/videos/How To Pray.mp4";
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
+import Slider from "react-slick";
+
+const sliderSettings = {
+  dots: true,
+  infinite: true,
+  speed: 500,
+  slidesToShow: 3,
+  slidesToScroll: 3,
+  autoplay: true,
+  autoplaySpeed: 3000,
+  arrows: true,
+  responsive: [
+    {
+      breakpoint: 1024,
+      settings: {
+        slidesToShow: 2,
+        slidesToScroll: 2,
+      },
+    },
+    {
+      breakpoint: 640,
+      settings: {
+        slidesToShow: 1,
+        slidesToScroll: 1,
+      },
+    },
+  ],
+};
 
 const ChurchAboutPage = () => {
   const ministryLeaders = [
@@ -57,6 +87,7 @@ const ChurchAboutPage = () => {
   return (
     <div className="bg-gray-50 min-h-screen text-gray-800 ">
       {/* Hero Section */}
+
       <div className="bg-gradient-to-br from-red-200 to-red-600 text-white py-10 pt-20">
         <div className="container max-w-7xl mx-auto px-4 text-center">
           <Cross
@@ -286,24 +317,69 @@ const ChurchAboutPage = () => {
       </div>
 
       {/* Leadership Team */}
-      <div className="bg-gray-50 py-16">
-        <div className="container max-w-7xl mx-auto px-6 text-center">
-          <h2 className="text-3xl lg:text-4xl font-serif font-bold mb-12 flex justify-center items-center">
-            <Users className="mr-2 text-[#DA0037]" size={40} />
+
+      <div className="board-slider bg-gray-50 py-16">
+        <div className="container max-w-7xl mx-auto px-4 sm:px-6 text-center">
+          <h2 className="text-2xl sm:text-3xl lg:text-4xl font-serif font-bold mb-8 flex justify-center items-center">
+            <Users className="mr-2 text-[#DA0037]" size={30} sm:size={40} />
             Board of Trustees
           </h2>
-          <div className="grid md:grid-cols-3 gap-8">
-            {ministryLeaders.map((leader, index) => (
-              <div key={index} className="bg-white rounded-lg p-6 shadow-md">
-                <img
-                  src={leader.image}
-                  alt={leader.name}
-                  className="w-40 h-40 mx-auto rounded-full object-cover mb-4 border-4 border-blue-100"
-                />
-                <h3 className="text-xl font-semibold">{leader.name}</h3>
-                <p className="text-gray-600">{leader.role}</p>
-              </div>
-            ))}
+          <div className="relative">
+            <Slider
+              {...{
+                ...sliderSettings,
+                responsive: [
+                  {
+                    breakpoint: 1024,
+                    settings: {
+                      slidesToShow: 3,
+                      slidesToScroll: 3,
+                      infinite: true,
+                      dots: true,
+                    },
+                  },
+                  {
+                    breakpoint: 768,
+                    settings: {
+                      slidesToShow: 2,
+                      slidesToScroll: 3,
+                      infinite: true,
+                      dots: true,
+                    },
+                  },
+                  {
+                    breakpoint: 480,
+                    settings: {
+                      slidesToShow: 2,
+                      slidesToScroll: 3,
+                      infinite: true,
+                      dots: true,
+                    },
+                  },
+                ],
+              }}
+            >
+              {ministryLeaders.map((leader, index) => (
+                <div
+                  key={index}
+                  className="bg-gray-200 flex flex-col items-center justify-between rounded-lg p-4 sm:p-6 shadow-lg max-w-sm mx-auto h-full"
+                >
+                  <img
+                    src={leader.image}
+                    alt={leader.name}
+                    className="w-32 h-32 sm:w-40 sm:h-40 mx-auto rounded-full object-cover mb-4 border-4 border-blue-100"
+                  />
+                  <div className="flex flex-col justify-center flex-grow text-center">
+                    <h3 className="text-lg sm:text-xl font-semibold leading-tight">
+                      {leader.name}
+                    </h3>
+                    <p className="text-gray-600 text-sm sm:text-base mt-2">
+                      {leader.role}
+                    </p>
+                  </div>
+                </div>
+              ))}
+            </Slider>
           </div>
         </div>
       </div>
