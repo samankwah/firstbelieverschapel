@@ -149,9 +149,9 @@ const ChurchAboutPage = () => {
       {/* Core Beliefs Section */}
       <div className="bg-white py-16">
         <div className="container max-w-7xl mx-auto px-6 text-center">
-          <h2 className="text-3xl lg:text-4xl font-serif font-bold mb-12 flex justify-center items-center">
-            <HandHeart className="mr-2 text-[#DA0037]" size={40} />
-            Statement of Faith & Doctrinal Statement
+          <h2 className="text-3xl lg:text-3xl font-serif font-bold mb-6 flex justify-center items-center">
+            {/* <HandHeart className="mr-2 text-[#DA0037]" size={40} /> */}
+            Faith & Doctrinal Statement
           </h2>
           <span className="text-lg lg:text-lg mb-12 flex justify-start items-center">
             We affirm the following beliefs:
