@@ -214,7 +214,7 @@ function Events() {
       description:
         "Special fasting service led by Overseer Philip Otu with worship, prayers, and sermon.",
       type: "Convention",
-      eventImage: Pastor,
+      eventImage: Worship,
       speakers: [
         "Overseer Philip Otu",
         "Overseer Enoch Arhinful",
@@ -269,7 +269,7 @@ function Events() {
       description:
         "Second service for the general fasting day with different speakers and activities.",
       type: "Convention",
-      eventImage: Pastor,
+      eventImage: Worship,
       speakers: [
         "District Pastor George Owusu Gyamfi",
         "Pastor Felix Owusu",
@@ -320,7 +320,7 @@ function Events() {
       description:
         "Leaders to receive confession and be posted to the Holy Sanctuary.",
       type: "Special Session",
-      eventImage: Worship,
+      eventImage: Pastor,
       speakers: [
         "Pastor George Okyere",
         "Overseer Barak Anim",
