@@ -24,7 +24,30 @@ const Hero = () => {
   const [isHovered, setIsHovered] = useState(false);
 
   // Image paths
-  const images = [Drummer, Pastor, Worship];
+  const images = [
+    {
+      image: Drummer,
+      header: "An Evening of Praise and Worship",
+      text: "Join us for a night of powerful praise and worship, where hearts are lifted and spirits are renewed.",
+      location: "Main Auditorium, Akim Oda",
+      date: "Sunday @ 6:00 PM",
+    },
+    {
+      image: Pastor,
+      header: "Leadership Empowerment Seminar",
+      text: "Equipping leaders with the tools and insights to inspire and lead with integrity and purpose.",
+      location: "Conference Hall, Akim Oda, Main Lorry Station",
+      date: "Tuesday @ 5:00 PM",
+    },
+    {
+      image: Worship,
+      header: "All Believers Prophetic Night",
+      text: "Experience a night of prophetic declarations and divine encounters in the presence of God.",
+      location: "National Headquarters, Akim Oda",
+      date: "Friday @ 6:30 PM",
+    },
+  ];
+
   const containerVariants = {
     hidden: { opacity: 0 },
     visible: {
@@ -53,13 +76,13 @@ const Hero = () => {
         {images.map((image, index) => (
           <div
             key={index}
-            className="relative w-full min-h-[75vh] lg:min-h-[85vh] flex items-center justify-center overflow-x-visible object-cover"
+            className="relative w-full min-h-[75vh] lg:min-h-[75vh] flex items-center justify-center overflow-x-visible object-cover"
           >
             {/* Image Background */}
             <img
-              src={image}
+              src={image.image}
               alt={`Slide ${index + 1}`}
-              className="absolute object-fill w-full h-[75vh] lg:h-[85vh] mb-2"
+              className="absolute object-fill w-full h-[75vh] lg:h-[75vh] mb-2"
             />
 
             {/* Gradient Overlay */}
@@ -72,20 +95,19 @@ const Hero = () => {
               initial="hidden"
               animate="visible"
             >
-              <div className="max-w-4xl mx-auto text-center pt-28">
+              <div className="max-w-4xl mx-auto text-center mt-32">
                 <motion.h1
                   className="text-4xl md:text-5xl lg:text-7xl font-extrabold text-center text-gray-50 mb-8 tracking-normal sm:pt-8 md:pt-20 lg:pt-20"
                   variants={itemVariants}
                 >
-                  First Believers Anointed Chapel International
+                  {image.header}
                 </motion.h1>
 
                 <motion.p
                   className="text-base md:text-lg lg:text-2xl font-bold text-gray-200 mb-6 max-w-2xl mx-auto leading-relaxed"
                   variants={itemVariants}
                 >
-                  A community of faith, hope, and love. Transforming lives
-                  through meaningful connections and spiritual growth.
+                  {image.text}
                 </motion.p>
 
                 {/* Action Buttons */}
@@ -124,15 +146,11 @@ const Hero = () => {
                 >
                   <div className="flex items-center font-extrabold space-x-2">
                     <MapPin size={20} />
-                    <span className="text-xs md:text-xl">
-                      National Headquaters, Akim Oda
-                    </span>
+                    <span className="text-xs md:text-xl">{image.location}</span>
                   </div>
                   <div className="flex items-center font-extrabold space-x-2">
                     <Calendar size={20} />
-                    <span className="text-xs md:text-xl">
-                      Sundays @ 10:30am
-                    </span>
+                    <span className="text-xs md:text-xl">{image.date}</span>
                   </div>
                 </motion.div>
               </div>
