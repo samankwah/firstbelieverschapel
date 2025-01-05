@@ -34,7 +34,7 @@ const Hero = () => {
     },
     {
       image: Pastor,
-      header: "Leadership Empowerment Seminar",
+      header: "Leadership Seminar",
       text: "Equipping leaders with the tools and insights to inspire and lead with integrity and purpose.",
       location: "Conference Hall, Akim Oda, Main Lorry Station",
       date: "Tuesday @ 5:00 PM",
